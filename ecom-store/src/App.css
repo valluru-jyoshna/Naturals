@@ -1,0 +1,381 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+/* Navbar */
+.navbar {
+  background-color: #9f1593;
+  color: white;
+  padding: 1rem 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links a {
+  color: white;                 /* home ,services,about us(text color)*/
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: white;
+  color: #333;
+  transition: all 0.3s ease; /* Smooth transition effect */
+  border: 2px solid #9f1593;
+}
+/* Hero Section */
+.hero {
+  background: url("https://i.pinimg.com/736x/65/11/9a/65119aa6a25f7dafcee71f352370ba9e.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  text-align: center;
+  color: black;                  /* welcome to naturals*/    
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #9f1593;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.hero .btn:hover {
+background-color: white;       /*  background color */
+color: #9f1593;                /* text color */
+transition: all 0.3s ease;       /* Smooth transition effect */
+border: 2px solid #9f1593;     /* Optional: adds a border */
+}
+/* Services Section */
+.services {
+  padding: 40px 20px;
+  background-color: rgb(148, 8, 141);
+  text-align: center;
+}
+.services .service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.service {
+  background:white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(3, 3, 3, 0.1);
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+}
+.service img {
+  width: 100%;
+  max-width: 262.6px;
+  height: auto;
+  margin-top: 0.2px;
+}
+.services h2 {
+color: #efedef;             /* Main theme color for the heading */
+}
+.service {
+background: black;    /* Keeps the service card background white */
+color: #dedbdb;             /* Dark text inside the cards */
+}
+.btn:hover {
+background-color: #ffd700;    /* Gold color for hover background */
+color: #333;                  /* Darker text color for contrast */
+transition: all 0.3s ease;      /* Smooth transition effect */
+border: 2px solid #ffd700;    /* Optional: adds a border with hover color */
+}
+/* Price Section */
+.price-section  {
+background: url("https://i.pinimg.com/736x/78/91/25/789125cdfb66dec2594aedb7190b5651.jpg")no-repeat center center/cover;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.price-card {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+.price-card .image {
+  flex: 1;
+  padding-left: 20px;
+}
+.price-card img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+.price-card h3 {
+  color: #9f1593;
+}
+.price-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.price-card ul li {
+  display: flex;
+  justify-content: space-between;    /* Distributes space between the text and price */
+  margin: 10px 0;
+  font-size: 1rem;
+}
+.price-card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #9f1593;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.price-card a:hover {
+  background-color: white;
+  color: #9f1593;
+  border: 2px solid #9f1593;
+}
+.price-card {
+background: black;         /* Keeps the price card background black */
+color: #dedbdb; 
+cursor: pointer;
+}
+/* Exclusive offer IMAGE */
+.image-page-container {
+  text-align: center;
+  margin: 20px;
+  background-color: #9f1593;
+}
+.image-page-container img {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+/* About Us Section */
+.about-us-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #0d0d0d;
+}
+.about-us-content {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}
+.about-us-image {
+  width: 40%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.about-us-text {
+  width: 60%;
+}
+.about-us-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #f0eaea;
+}
+.about-us-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #f8f1f1;
+  margin-bottom: 15px;
+}
+/video/
+/* Ensure the background image covers the entire page */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.video-page-container {
+  background-image:url("https://i.pinimg.com/736x/09/df/61/09df61baefbeaa1a5f2b1d4900c70f5c.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;                     /* Centers the image */
+  height: 100vh; 
+  color: rgba(239, 232, 232, 0.925);             /* Sets text color for better readability */
+  text-align: center;                              /* Centers text alignment */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;                         /* Vertically center content */
+  align-items: center;                             /* Horizontally center content */
+}
+iframe {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(236, 232, 232, 0.897);     /* Adds a shadow for better visibility */
+}
+.video-page-container h1, h2, p {
+  color: rgb(249, 245, 245);
+  text-shadow: 0 0 5px white, 0 0 10px white;
+  transition: 0.3s;
+}
+.video-page-container h1:hover, h2:hover, p:hover {
+  text-shadow:  
+    0 0 15px #ff00ff, 
+    0 0 30px #ff00ff, 
+    0 0 45px #ff00ff;
+  cursor: pointer;
+}
+/* Franchise Opportunities Section */
+.abt-fo-c {
+  padding: 2rem;
+  background-color:#9f1593  ;
+  color: white;
+  text-align: center;
+}
+.abt-fo-c-top {
+  margin-bottom: 1.5rem;
+}
+.abt-fo-c-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.abt-fo-c-bottom-fh {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.abt-fo-c-bottom-fh-img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #fff;
+}
+.abt-fo-c-bottom-btns {
+  display: flex;
+  justify-content: center;
+}
+.abt-fo-c-bottom-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease; /* Smooth transition effect */
+}
+.abt-fo-c-bottom-btn:hover {
+  background-color: white;       /* Ensures white background on hover */
+  color: #9f1593;                /* Text color on hover */
+  border: 2px solid #9f1593;     /* Adds a border on hover */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Appointment Page */
+.appointment-form, .contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.appointment-form label, .contact-form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.appointment-form input, 
+.appointment-form select, 
+.appointment-form textarea,
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.btn-submit {
+  background-color: #28a745;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #218838;
+}
+/* Contact Page */
+.contact-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.contact-form, .contact-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contact-info strong {
+  color: #28a745;
+}
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
